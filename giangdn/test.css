@@ -1,0 +1,33 @@
+.callout:before, 
+.callout:after 
+{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 20px;
+    border-bottom: solid 8px #fff;
+    border-left: solid 8px transparent;
+    border-right: solid 8px transparent;
+    top: -8px;
+}
+
+.callout:before
+{
+	border-width: 9px;
+    top: -9px;
+    left: 19px;
+    border-bottom-color: #999;
+}
+
+.callout-right:after
+{
+	left: auto!important;
+	right: 20px;
+}
+
+.callout-right:before
+{
+	left: auto!important;
+	right: 19px;
+}
